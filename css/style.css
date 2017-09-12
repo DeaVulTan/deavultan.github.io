@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'DOS';
+  src: url('../fonts/Fixedsys500c.eot');
+  src: local('☺'), url('../fonts/Fixedsys500c.woff') format('woff'), url('../fonts/Fixedsys500c.ttf') format('truetype'), url('../fonts/Fixedsys500c.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+    background-color: #000084;
+    text-align: center;
+    color: #bbbbbb;
+    font-size: 18px;
+    font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+}
+pre {
+    background-color: transparent;
+    color: #bbbbbb;
+    border: 0;
+    text-align: center;
+    font-size: 11px !important;
+}
+.btn-primary {
+    color: #000000;
+    background-color: #00aaaa;
+}
+.btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    background-image: none;
+    padding: 0 10px;
+    -webkit-box-shadow: 10px 10px 0 rgb(0,0,0);
+    box-shadow: 10px 10px 0 rgb(0,0,0);
+    cursor: default;
+    border: 0px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+}
+
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
